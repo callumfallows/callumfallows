@@ -11,6 +11,7 @@
 		"module": "esnext",
 		"moduleResolution": "node",
 		"noEmit": true,
+		"noImplicitAny": false,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"preserveConstEnums": true,
@@ -32,8 +33,8 @@
 			"@Interfaces/*": [
 				"./src/Interfaces/*"
 			],
-			"@Definations": [
-				"./src/Definations"
+			"@Definitions": [
+				"./src/Definitions"
 			],
 			"@Reducers": [
 				"./src/Redux/Reducers"
@@ -50,6 +51,6 @@
 			"@Actions": [
 				"./src/Actions"
 			]
-		},
+		}
 	}
 }

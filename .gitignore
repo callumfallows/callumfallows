@@ -20,8 +20,6 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
 
 # Bower dependency directory (https://bower.io/)
 bower_components
@@ -34,10 +32,6 @@ build/Release
 
 # Dependency directories
 node_modules/
-jspm_packages/
-
-# TypeScript v1 declaration files
-typings/
 
 # Optional npm cache directory
 .npm
@@ -45,8 +39,6 @@ typings/
 # Optional eslint cache
 .eslintcache
 
-# Optional REPL history
-.node_repl_history
 
 # Output of 'npm pack'
 *.tgz
@@ -59,3 +51,12 @@ typings/
 
 # next.js build output
 .next
+
+# bundle output
+bundle
+
+# Intelli J Workspace Files
+
+*.idea
+.idea
+.idea/*

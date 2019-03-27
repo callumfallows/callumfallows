@@ -13,9 +13,25 @@ import { HomeActions } from '@Actions';
 export class HomePage extends React.Component<IHomePage.IProps, IHomePage.IState> {
 	public render(): JSX.Element {
 		return (
-			<div className="title">
-				Hello!
-				<Heading text="World!" />
+			<div className="page-content page-content--home">
+				<div className="container container--left-navigation">
+					<nav className="left-navigation-menu" id="main-nav" role="navigation" aria-label="Site navigation">
+						<ul className="left-navigation-menu__list">
+							<li className="left-navigation-menu__list__item">
+								<a href="#" title="Home">Home</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div className="container container--main">
+					<main role="main" id="main">
+						<div className="container container--page-content">
+							<div className="page-content">
+								<Heading text="World!"/>
+							</div>
+						</div>
+					</main>
+				</div>
 			</div>
 		);
 	}
