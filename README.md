@@ -1,9 +1,6 @@
-## Callum Fallows
-
-This Github project has been created in the production of a new online CV / portfolio to showcase past works. 
-This project is created using <a href="https://github.com/pankod/next-boilerplate">next-bolierplate</a>, a performance oriented Next.js application boilerplate with Redux, Typescript, Express.js and Sass.
-
 ## About
+
+This project is created using <a href="https://github.com/pankod/next-boilerplate">next-bolierplate</a>, a performance oriented Next.js application boilerplate with Redux, Typescript, Express.js and Sass.
 
 
 Next.js is a minimalistic React framework that runs in the browser and the server. It offers developers an easy way to get started, and as it uses React.js for templating it is also a straightforward way for developers with React experience to get productive fast.
