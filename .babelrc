@@ -12,6 +12,8 @@
           ],
           "alias": {
             "@Actions": "./src/Actions",
+            "@Styles": "./src/Styles",
+            "@Types": "./src/Types",
             "@Components": "./src/Components",
             "@Definitions": "./src/Definitions",
             "@Interfaces": "./src/Interfaces",

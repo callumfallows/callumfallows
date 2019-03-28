@@ -1,10 +1,11 @@
 //#region Global Imports
 import { Props } from 'react';
+import {Logo} from "@Types";
 //#endregion Global Imports
 
-declare module IHeading {
+declare module ILogo {
     export interface IProps extends Props<{}> {
-        text: string;
+        logo: Logo;
     }
 
     export interface IState { }

@@ -2,7 +2,6 @@
 
 This project is created using <a href="https://github.com/pankod/next-boilerplate">next-bolierplate</a>, a performance oriented Next.js application boilerplate with Redux, Typescript, Express.js and Sass.
 
-
 Next.js is a minimalistic React framework that runs in the browser and the server. It offers developers an easy way to get started, and as it uses React.js for templating it is also a straightforward way for developers with React experience to get productive fast.
 
 The advantages of this approach is to be able to create Rich User experiences in a uniform way, without compromising Search Engine Optimisation (SEO) factors that are key to good ranking on Google and other search engines. 
@@ -85,52 +84,4 @@ yarn install
 
 Then open http://localhost:3000/ to see your app.
 
-<br/>
-
- ***At this point, your project layout should look like this:***
- 
- <br/>
-
-```
-.
-├── app
-│  ├── proxy.js
-│  ├── routes.js
-│  └── server.js
-├── next.config.js
-├── pages
-│  ├── _app.tsx
-│  ├── _document.tsx
-│  ├── home
-│  │  ├── index.scss
-│  │  └── index.tsx
-│  └── index.ts
-├── src
-│  ├── Actions
-│  │  ├── HomeActions.ts
-│  │  └── index.ts
-│  ├── Components
-│  │  ├── Heading
-│  │  │  ├── index.tsx
-│  │  │  └── style.scss
-│  │  └── index.ts
-│  ├── Definitions
-│  │  ├── ActionConsts.ts
-│  │  └── index.ts
-│  ├── Interfaces
-│  │  ├── Components
-│  │  │  └── Heading.d.ts
-│  │  ├── index.ts
-│  │  └── Pages
-│  │     ├── App.d.ts
-│  │     └── Home.d.ts
-│  └── Redux
-│     ├── Reducers
-│     │  ├── home.ts
-│     │  └── index.ts
-│     └── store.ts
-├── tsconfig.json
-└── tslint.json
-
-```
 

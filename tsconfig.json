@@ -36,6 +36,9 @@
 			"@Definitions": [
 				"./src/Definitions"
 			],
+			"@Types": [
+				"./src/Types"
+			],
 			"@Reducers": [
 				"./src/Redux/Reducers"
 			],
@@ -50,6 +53,12 @@
 			],
 			"@Actions": [
 				"./src/Actions"
+			],
+			"@Styles": [
+				"./src/Styles"
+			],
+			"@Styles/*": [
+				"./src/Styles/*"
 			]
 		}
 	}

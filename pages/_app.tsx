@@ -1,8 +1,8 @@
 //#region Global Imports
-import App, { Container } from 'next/app';
+import App, {Container} from 'next/app';
 import * as React from 'react';
 
-import { Provider } from 'react-redux';
+import {Provider} from 'react-redux';
 import withRedux from 'next-redux-wrapper';
 //#endregion Global Imports
 
@@ -11,8 +11,11 @@ import store from '@Redux/store';
 //#endregion Local Imports
 
 //#region Interface Imports
-import { IApp } from '@Interfaces';
+import {IApp} from '@Interfaces';
 //#endregion Interface Imports
+
+//#region Global Styles
+import '@Styles/index.scss';
 
 class MyApp extends App<IApp.IProps> {
     static async getInitialProps(props: any) {
@@ -22,12 +25,12 @@ class MyApp extends App<IApp.IProps> {
             pageProps = await props.Component.getInitialProps(props.ctx);
         }
 
-        return { pageProps };
+        return {pageProps};
     }
 
 
     render(): JSX.Element {
-        const { Component, pageProps, store } = this.props;
+        const {Component, pageProps, store} = this.props;
 
         return (
             <Container>

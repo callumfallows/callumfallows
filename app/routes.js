@@ -1,6 +1,6 @@
 const routes = require('next-routes')();
 
 routes
-	.add('/', '/home/index')
+	.add('/', '/home/index');
 
 module.exports = routes;

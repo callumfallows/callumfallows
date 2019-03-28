@@ -6,12 +6,23 @@ import { bindActionCreators, Dispatch } from 'redux';
 
 //#region Interface Imports
 import { IHomePage, IStore } from '@Interfaces';
-import { Heading } from '@Components';
+import {LogoComponent} from '@Components';
 import { HomeActions } from '@Actions';
-//#endregion Interface Imports
+import { ImageType, LogoType } from '@Types';
+
+const LOGO_IMAGE = new ImageType(
+	"https://via.placeholder.com/320x100.png/fff/09f",
+	100,
+	320,
+	"https://via.placeholder.com/620x200.png/fff/09f 2x", "Logo image",
+	"Main logo text");
+
+const MAIN_LOGO = new LogoType(LOGO_IMAGE);
 
 export class HomePage extends React.Component<IHomePage.IProps, IHomePage.IState> {
+
 	public render(): JSX.Element {
+
 		return (
 			<div className="page-content page-content--home">
 				<div className="container container--left-navigation">
@@ -27,7 +38,7 @@ export class HomePage extends React.Component<IHomePage.IProps, IHomePage.IState
 					<main role="main" id="main">
 						<div className="container container--page-content">
 							<div className="page-content">
-								<Heading text="World!"/>
+								<LogoComponent logo={MAIN_LOGO}/>
 							</div>
 						</div>
 					</main>

@@ -1,1 +1,1 @@
-export { Heading } from '@Components/Heading';
+export { LogoComponent } from '@Components/Logo';
